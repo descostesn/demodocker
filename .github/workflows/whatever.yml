@@ -1,0 +1,15 @@
+name: whatever action
+
+on:
+  push:
+    paths:
+      - 'cacamole'
+    branches:
+      - main
+
+jobs:
+   blabla:
+    runs-on: ubuntu-latest
+    steps:
+      - name: demo for Sara
+        run: echo 'Hello Sara'
