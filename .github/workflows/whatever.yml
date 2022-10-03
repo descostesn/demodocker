@@ -18,6 +18,6 @@ jobs:
     needs: helloSara
     steps:
       - name: francesco
-        run: "hello francesco"
+        run: echo "hello francesco"
       - name: bobby
-        run: "hello bobby"
+        run: echo "hello bobby"
