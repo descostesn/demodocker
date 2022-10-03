@@ -15,7 +15,7 @@ jobs:
         run: echo 'Hello Sara'
    helloMen:
     runs-on: windows-latest
-    needs: demo for Sara
+    needs: helloSara
     steps:
       - name: francesco
         run: "hello francesco"
