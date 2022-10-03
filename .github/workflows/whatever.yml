@@ -8,8 +8,16 @@ on:
       - main
 
 jobs:
-   blabla:
+   helloSara:
     runs-on: ubuntu-latest
     steps:
       - name: demo for Sara
         run: echo 'Hello Sara'
+   helloMen:
+    runs-on: windows-latest
+    needs: demo for Sara
+    steps:
+      - name: francesco
+        run: "hello francesco"
+      - name: bobby
+        run: "hello bobby"
